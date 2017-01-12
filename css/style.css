@@ -274,7 +274,7 @@ body {
           clear: both;
         }
         .timeline .timeline-item .timeline-badge {
-          color: #fff;
+          /*color: #fff;*/
           width: 54px;
           height: 54px;
           line-height: 52px;
@@ -319,7 +319,7 @@ body {
           float: left;
           right: 16px;
           border: 1px solid #c0c0c0;
-          background: #ffffff;
+          background: transparent;/*#ffffff;*/
           border-radius: 2px;
           padding: 20px;
           -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -443,7 +443,7 @@ h1{
 }
 
 p{
-  color: black;
+  color: white;
   text-align:center;
   /*font:15px Lobster;*/
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
