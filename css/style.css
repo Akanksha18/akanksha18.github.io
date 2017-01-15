@@ -377,7 +377,7 @@ body {
         }
         .timeline-horizontal .timeline-item {
           display: table-cell;
-          height: 470px; 
+          height: 500px; 
           /*change above line for height adjustment*/
           width: 20%;
           min-width: 320px;
@@ -441,11 +441,18 @@ h1{
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
 }
-
+h4{
+  text-align:center;
+  color:#FFF !important;
+  font:20px Lobster;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
 p{
   color: white;
   text-align:center;
-  /*font:15px Lobster;*/
+  font:15px Lobster;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
@@ -489,7 +496,8 @@ p{
   padding-top:50px;
 }
 
-a{
+.top
+  {
   background:#e74c3c;
   color:#FFF;
   position:relative;
@@ -504,10 +512,30 @@ a{
   box-shadow:#c0392b 0px 7px 2px,#000 0px 8px 5px;
 }
 
-a:hover{
+.top:hover{
   opacitY:1;
 }
-a:active{
+.top:active{
   top:4px;
   box-shadow:#c0392b 0px 3px 2px,#000 0px 3px 5px;
+}
+
+#skill-set
+{
+  background:none !important;
+  height: 200px !important;
+  width:200px  !important;
+  position:relative  !important;
+}
+
+#object
+{
+
+  text-align:center;
+  color:#FFF !important;
+  margin-top:5%;
+  font:60px Lobster;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
